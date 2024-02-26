@@ -14,7 +14,5 @@ if (fourUserValue.length < 4) {
 for (let i = 0; i < fourUserValue.length; i++) {
     const UserValueIndex = fourUserValue[i];
     sum += Number(UserValueIndex);
-
-
 }
 console.log(sum)
