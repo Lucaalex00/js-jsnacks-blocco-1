@@ -4,7 +4,7 @@
 let i = 0;
 //WHILE
 
-while (i < 3) {
+/* while (i < 3) {
 
     const userNumber = prompt('Inserisci il numero')
     let userNumberCube = (userNumber * userNumber * userNumber)
@@ -12,23 +12,23 @@ while (i < 3) {
     i++
 
 }
-
+ */
 //FOR
 
-/* for (let i = 0; i < 10; i++) {
-    const userNumber = prompt('inserisci il numero')
-    console.log(`il numero scelto è  ${userNumber}`)
+/* for (let i = 0; i < 3; i++) {
+    const userNumber = prompt('Inserisci il numero')
+    let userNumberCube = (userNumber * userNumber * userNumber)
+    console.log(`il numero scelto AL CUBO è ${userNumberCube}`)
 
 } */
 
 
 // DO- WHILE
 
-/* do {
-    let userNumber = parseInt(prompt('inserisci il numero'))
-    console.log(`il numero scelto è  ${userNumber}`)
+do {
+    const userNumber = prompt('Inserisci il numero')
+    let userNumberCube = (userNumber * userNumber * userNumber)
+    console.log(`il numero scelto AL CUBO è ${userNumberCube}`)
     i++
-    sum += userNumber
-} while (i < 10)
 
-console.log(sum) */
+} while (i < 3)
