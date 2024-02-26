@@ -9,7 +9,7 @@ let i = 0
 /* //WHILE
 while (i < 3) {
     let userNumber = parseInt(prompt('inserisci un numero'));
-    if (userNumber % 3 === 0) { //divisibile per dispari
+    if (userNumber % 3 === 0) { //divisibile per "dispari"
         evenList.push(userNumber)
     }
     i++
@@ -17,12 +17,22 @@ while (i < 3) {
 
  */
 //FOR
-for (let i = 0; i < 3; i++) {
+/* for (let i = 0; i < 3; i++) {
     let userNumber = parseInt(prompt('inserisci un numero'));
 
-    if (userNumber % 3 === 0) { //divisibile per dispari
+    if (userNumber % 3 === 0) { //divisibile per "dispari"
         evenList.push(userNumber)
     }
 }
 
 console.log(`[${evenList}] ciclo for`)
+ */
+do {
+    let userNumber = parseInt(prompt('inserisci un numero'));
+    if (userNumber % 3 === 0) { //divisibile per "dispari"
+        evenList.push(userNumber)
+    }
+    i++
+
+} while (i < 3)
+console.log(evenList)
